@@ -25,7 +25,7 @@ main .first-block p {
     border-radius: 30px;
     padding: 10px;
     text-align: justify;
-
+    width: 90%;
 }
 
 /***** Main Second Block *****/
@@ -116,6 +116,7 @@ footer h3 {
 
     main .first-block p {
         font-size: 14px;
+        width: 100%;
     }
 
     main .second-block img {
