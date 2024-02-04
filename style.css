@@ -1,11 +1,12 @@
-* {
-    border: 1px solid red;
-}
-
+/* TP 1 - Technologies du Web
+Ahmed GUETIB
+2024-02-04 */
+/****** Menu *****/
 .navbar.nav-item a {
     color: blue;
 }
 
+/***** Main First Block *****/
 main .first-block .col-lg-4 img {
     border: 2px solid black;
     border-radius: 50%;
@@ -27,6 +28,7 @@ main .first-block p {
 
 }
 
+/***** Main Second Block *****/
 main .second-block {
     background-color: rgb(126, 184, 235);
     padding-bottom: 15px;
@@ -54,6 +56,7 @@ main .second-block .list-group-item {
     border-color: #034a5c;
 }
 
+/***** Main Third Block *****/
 main .third-block {
     padding: 20px 100px 20px 100px;
 }
@@ -69,4 +72,80 @@ footer {
 footer h3 {
     line-height: 50px;
     text-align: center;
+}
+
+/* Responsive design */
+/* Screens whose width is less than or equal to 768 pixels */
+/***** Menu Responsive *****/
+@media screen and (max-width: 768px) {
+    .navbar-expand-sm {
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-expand-sm .navbar-collapse {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .navbar-expand-sm .navbar-toggler {
+        display: block;
+    }
+}
+
+/***** Main Responsive *****/
+@media screen and (max-width: 768px) {
+    main .first-block .col-lg-4 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    main .first-block .col-lg-8 h5 {
+        font-size: 18px;
+    }
+
+    main .first-block p {
+        font-size: 14px;
+    }
+
+    main .second-block img {
+        width: 50px;
+        height: 50px;
+    }
+
+    main .second-block h3 {
+        font-size: 18px;
+    }
+
+    main .second-block .col-lg-8 {
+        order: 2;
+    }
+
+    main .second-block .col-lg-4 {
+        order: 1;
+    }
+
+    main .third-block {
+        padding: 20px 50px 20px 50px;
+    }
+
+    main .third-block form {
+        width: 80%;
+        margin: auto;
+    }
+
+    /***** FOOTER *****/
+    footer h3 {
+        font-size: 18px;
+    }
 }
