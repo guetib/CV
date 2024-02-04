@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <title>CV</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="#">Ahmed GUETIB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#second-block">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#third-block">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="row">
+        <div class="container-fluid first-block p-3">
+            <div class="row">
+                <div class="col-lg-4"><img src="img/Photos.jpg" alt="cv-photo"></div>
+                <div class="col-lg-8">
+                    <h5>About me</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ipsa incidunt veritatis magni,
+                        beatae id adipisci obcaecati voluptates. Maiores explicabo excepturi aspernatur reprehenderit
+                        quas nostrum nihil est vel nesciunt magnam.</p>
+                </div>
+            </div>
+        </div>
+        <div id="second-block" class="container-fluid second-block">
+            <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="img/education.png" alt="education">
+                <h3>Education</h3>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="container d-grid gap-3">
+                            <div class="row bg-light rounded-3">
+                                <div class="col p-2">
+                                    <h6>2017-2020</h6>
+                                    <h5>Bachelor's Degree</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipis</p>
+                                </div>
+                            </div>
+                            <div class="row bg-light rounded-3">
+                                <div class="col p-2">
+                                    <h6>2020-2022</h6>
+                                    <h5>Master Degree</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus hic atque,
+                                        voluptas </p>
+                                </div>
+                            </div>
+                            <div class="row bg-light rounded-3">
+                                <div class="col p-2">
+                                    <h6>2022-2024</h6>
+                                    <h5>PhD</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur rem
+                                        quisquam incidunt eos quas dolor possimus, natus velit enim laudantium
+                                        tenetur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h5>Languages</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">English(Fluent)</li>
+                            <li class="list-group-item">h6ish(B2)</li>
+                            <li class="list-group-item">French(Native)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="third-block" class="container-fluid third-block">
+            <h3>Contacts</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="object">Object</label>
+                    <input type="text" class="form-control" id="object" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Send</button>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <h3>Ahmed GUETIB</h3>
+    </footer>
+
+</body>
+
+</html>
