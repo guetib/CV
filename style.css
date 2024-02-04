@@ -134,6 +134,7 @@ footer h3 {
 
     main .second-block .col-lg-4 {
         order: 1;
+        margin-bottom: 10px;
     }
 
     main .third-block {
